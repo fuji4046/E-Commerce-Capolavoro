@@ -41,6 +41,7 @@ Gli admin vengono preregistrati nel sistema dall’amministratore del database, 
 
 ### Login
 Il login si può effettuare come Cliente o Admin tramite una pagina singola, prima verifica se l’email inserita è di un admin, se non lo è controlla tra gli utenti.
+
 ![Accesso](assets/Accesso.png)
 
 ---
