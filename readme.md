@@ -4,7 +4,7 @@
 
 ## Descrizione
 Il progetto è un prototipo di un sito web di E-Commerce 
-realizzato per un compito scolastco. Il sito permette la gestione dei prodotti per gli amministratori, mentre per utenti registrati prevede l'acquisto dei prodotti.
+realizzato per un compito scolastico. Il sito permette la gestione dei prodotti per gli amministratori, mentre per utenti registrati prevede l'acquisto dei prodotti.
 
 ---
 
