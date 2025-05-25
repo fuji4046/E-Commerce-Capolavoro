@@ -76,4 +76,4 @@ Vengono visualizzati i prodotti scelti e il totale della spesa, per modificare i
 1. Clona o scarica il progetto.
 2. Configura il database con `/database/init.sql`.
 3. Avvia il server locale con XAMPP/LAMP.
-4. Accedi come admin o cliente.
+4. Accedi come admin o cliente (negli account inseriti da init.sql la password è '1').
