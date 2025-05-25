@@ -1,0 +1,251 @@
+/* Stile comune nelle pagine */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text: #071115;
+    --background: #f2f7fa;
+    --primary: #4c9dc0;
+    --secondary: #c19fdd;
+    --accent: #cf75ce;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text);
+}
+
+header{
+    background-color: var(--primary);
+    padding:0 15vw;
+    display: flex;
+    height: 12vh;
+}
+
+.title-container{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--background);
+}
+
+.logo{
+    background-color: var(--background);
+    padding: 0.5em;
+    border-radius: 20px;
+
+}
+
+.logo-container {
+    height: 100%;
+    display: flex;
+    padding: 1em;
+}
+
+nav {
+    width: 60%;
+}
+
+.nav-element{
+    list-style: none;
+    margin-left: 3em;
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+    height: 100%;
+    padding: 2em 0;
+}
+
+.nav-element a{
+    text-decoration: none;
+    color: var(--background);
+    background-color: var(--secondary);
+    padding: 0 1.5em;
+    border-radius: 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nav-element a:hover{
+    background-color: var(--background);
+    color: var(--text);
+}
+
+footer {
+    background-color: var(--primary);
+    color: var(--background);
+    padding:3vh 2vw;
+    text-align: center;
+}
+
+.title-page {
+    text-align: center;
+    padding-top: 5vh;
+}
+
+body {
+    background-color: var(--background);
+}
+
+section {
+    min-height: 70vh;
+    padding: 5vh 5vw;
+}
+
+.section-centering {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vh 8vw;
+}
+
+/* Pulsanti */
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+.button-big,
+.button,
+.submit-button {
+    text-decoration: none;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: var(--background);
+    font-weight: bold;
+    padding: 3vh 3vw;
+}
+
+.button-big {
+    width: 25vw;
+    height: 20vh;
+    font-size: 2rem;
+    padding: 0;
+}
+
+.button-big:hover,
+.button:hover,
+.submit-button:hover{
+    background-color: var(--secondary);
+    color: var(--text);
+    transform: scale(120%);
+}
+
+.submit-button {
+    width: 80%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 3vh;
+}
+
+
+
+
+/* Form */
+.form {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.form input:not([type="submit"]), .form select {
+    margin-bottom: 2em;
+    border: 0;
+    border-bottom: solid 3px var(--primary);
+    border-radius: 5px;
+    padding: 1rem;
+    height: 2rem;
+}
+
+.form select {
+    appearance: base-select;
+    background-color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.form input:not([type="submit"]):focus, .form select:focus {
+    border-color: var(--accent);
+    outline: 0;
+}
+
+.form input[type="submit"] {
+    border: 0;
+    background-color: var(--primary);
+    border-radius: 15px;
+    color: var(--background);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0.5em;
+}
+
+.form input[type="submit"]:hover {
+    background-color: var(--accent);
+}
+
+
+/* Tabella */
+.table {
+    width: 100%;
+    margin: 5vh 0;
+}
+
+.table thead, #tot {
+    background-color: var(--primary);
+    color: var(--background);
+}
+
+.table tbody {
+    background-color: var(--secondary);
+}
+
+.table th, .table td {
+    padding: 0.5rem;
+}
+
+
+/* Carrello */
+#tot-value{
+    background-color: var(--accent);
+    color: var(--background);
+    font-weight: bold;
+}
+
+.form-products {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-products table {
+    width: 100%;
+}
+
+.input-quantity {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 1rem;
+}
+.input-quantity-container {
+    width: 3vw;
+}
+
